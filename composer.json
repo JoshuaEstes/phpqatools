@@ -1,0 +1,33 @@
+{
+    "name": "joshuaestes/phpqatools",
+    "description": "A tool set of PHP QA Tools",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "Joshua.Estes@ScenicCityLabs.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.phpunit.de"
+        },
+        {
+            "type": "pear",
+            "url": "http://pear.php.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "*",
+        "phploc/phploc": "*",
+        "phpmd/phpmd": "*",
+        "pear-phpunit/phpcpd": "*",
+        "pear-phpunit/phpdcd": "*",
+        "pear-pear/PHP_CodeSniffer": "*"
+    }
+}
